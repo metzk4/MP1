@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="Design.css">
+    <meta charset="UTF-8">
+    <title>Konstantin's Food Quiz Game</title>
+    <script src="Game.js"> </script>
+</head>
+<body>
+<h1> Welcome to my first Mini Project </h1>
+<h2> This is a Quiz on different food options. When an image appears select the correct food out of the values given,</h2>
+<div id="startclicked">
+    <input type = "button" id= "pressstart" value= "start">
+    <img src = "https://images-na.ssl-images-amazon.com/images/I/91csheY3+sL.png" width="25%" alt="Food Quiz Home Image"/>
+</div>
+
+<div id= "quiz">
+    <section id= "questions">
+        <img id ="questionimgs" src = "" width="25%" alt="Food Quiz Home Image"/>
+        <form>  <input type="Radio" id="OptionA" name = "Option" value="Pizza"> <label for = "OptionA"> Pizza</label>
+            <input type="Radio" id="OptionB" name = "Option" value="Pasta"> <label for = "OptionB"> Pasta</label>
+            <input type="Radio" id="OptionC" name = "Option" value="Soup"> <label for = "OptionC"> Soup</label>
+            <input type="Radio" id="OptionD" name = "Option" value="Salad"> <label for = "OptionD"> Salad</label>
+        </form>
+    </section>
+
+    <section id = "StartButton">
+        <form>
+            <!--Navigation-->
+            <input id = "SubmitButton" type = "button" value = "Submit Answer">
+            <input id = "ContinueButton" type = "button" value = "Continue">
+
+        </form>
+        <p id = 'answercorrect'></p>
+</div>
+</body>
+</html>
